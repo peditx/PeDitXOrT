@@ -1,90 +1,96 @@
 ![OpenWrt logo](include/logo.png)
 
-OpenWrt Project is a Linux operating system targeting embedded devices. Instead
-of trying to create a single, static firmware, OpenWrt provides a fully
-writable filesystem with package management. This frees you from the
-application selection and configuration provided by the vendor and allows you
-to customize the device through the use of packages to suit any application.
-For developers, OpenWrt is the framework to build an application without having
-to build a complete firmware around it; for users this means the ability for
-full customization, to use the device in ways never envisioned.
 
-Sunshine!
+## Project [**PeDitXOrt**](https://github.com/peditx/PeDitXrt)
 
-## Development
 
-To build your own firmware you need a GNU/Linux, BSD or MacOSX system (case
-sensitive filesystem required). Cygwin is unsupported because of the lack of a
-case sensitive file system.
 
-### Requirements
 
-You need the following tools to compile OpenWrt, the package names vary between
-distributions. A complete list with distribution specific packages is found in
-the [Build System Setup](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem)
-documentation.
+این پروژه بر گرفته از:
 
-```
-binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
-make4.1+ perl python3.6+ rsync subversion unzip which
-```
 
-### Quickstart
+[OpenWRt](https://github.com/openwrt/opemwrt) 
 
-1. Run `./scripts/feeds update -a` to obtain all the latest package definitions
-   defined in feeds.conf / feeds.conf.default
 
-2. Run `./scripts/feeds install -a` to install symlinks for all obtained
-   packages into package/feeds/
+است.
 
-3. Run `make menuconfig` to select your preferred configuration for the
-   toolchain, target system & firmware packages.
 
-4. Run `make` to build your firmware. This will download all sources, build the
-   cross-compile toolchain and then cross-compile the GNU/Linux kernel & all chosen
-   applications for your target system.
+## لینک دانلود
 
-### Related Repositories
+برای دانلود به آدرس زیر مراجعه کنید:
 
-The main repository uses multiple sub-repositories to manage packages of
-different categories. All packages are installed via the OpenWrt package
-manager called `opkg`. If you're looking to develop the web interface or port
-packages to OpenWrt, please find the fitting repository below.
+https://github.com/peditx/PeDitXOrt/releases
 
-* [LuCI Web Interface](https://github.com/openwrt/luci): Modern and modular
-  interface to control the device via a web browser.
+## راهنمای نصب آسان
 
-* [OpenWrt Packages](https://github.com/openwrt/packages): Community repository
-  of ported packages.
+بعد از دانلود فایل آیزو به کمک نرم افزار [روفوس](https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe) فلش را بوتیبل کرده
+و سپس در دستگاه قرار دهید
+بعد از بوت کامل دستور زیر را وارد نموده و تا ریبوت دستگاه صبر کنید
 
-* [OpenWrt Routing](https://github.com/openwrt/routing): Packages specifically
-  focused on (mesh) routing.
+bash start.sh
 
-* [OpenWrt Video](https://github.com/openwrt/video): Packages specifically
-  focused on display servers and clients (Xorg and Wayland).
+فلش را از دستگاه خارج نمایید
 
-## Support Information
+## نصب ریپازیتوری PeDitX-repo
 
-For a list of supported devices see the [OpenWrt Hardware Database](https://openwrt.org/supported_devices)
+برای نصب و بروز رسانی نرم افزار های خود به [PeDitX-Repo](https://github.com/peditx/PeDitX-repo) مراجعه نمایید و از دستورات و راهنمای آن استفاده کنید
 
-### Documentation
+## کوتاه از این پروژ
 
-* [Quick Start Guide](https://openwrt.org/docs/guide-quick-start/start)
-* [User Guide](https://openwrt.org/docs/guide-user/start)
-* [Developer Documentation](https://openwrt.org/docs/guide-developer/start)
-* [Technical Reference](https://openwrt.org/docs/techref/start)
+همانطور که پروژه [immortalwrt](https://github.com/immortalwrt/immortalwrt) یک برداشت از [openwrt](https://github.com/openwrt/openwrt) برای استفاده روزانه مردم کشور چین است پروژه [**PeDitXOrt**](https://github.com/peditx/PeDitXOrt) نیز برداشتی از این دو پروژه برای کارهای روزانه فارسی زبانان است.
 
-### Support Community
+این پروژه برای استفاده های روزانه در ایران بیشترین کاربرد را دارد . (**با توجه به سخت افزارهای موجود**)
 
-* [Forum](https://forum.openwrt.org): For usage, projects, discussions and hardware advise.
-* [Support Chat](https://webchat.oftc.net/#openwrt): Channel `#openwrt` on **oftc.net**.
+## درخواست قابلیت و درایور
 
-### Developer Community
+از آنجا که در بازار ایران سخت افزار های محدود و قالبا نا معتبری یافت می شود از این رو در این نسخه تلاش می شود که سخت افزار هایی که در نسخه های گلوبال و چینی ساپورت نشده و یا درایوری برای این نوع سخت افزار کامپایل نکرده اند را در این نسخه جا دهم ...
+اما در هر صورتی که سخت افزاری از قلم افتاده در بخش درخواست ها یا در گروه مرتبط با کانال تلگرامی عنوان نمایید تا در اسرع وقت به سیستم عامل اضافه گردد.
 
-* [Bug Reports](https://bugs.openwrt.org): Report bugs in OpenWrt
-* [Dev Mailing List](https://lists.openwrt.org/mailman/listinfo/openwrt-devel): Send patches
-* [Dev Chat](https://webchat.oftc.net/#openwrt-devel): Channel `#openwrt-devel` on **oftc.net**.
+## پشتیبانی و سخت افزار های تحت پوشش
 
-## License
+در ابتدای کار بیشترین تمرکز بر روی شبیه ساز ها (مجازی سازی) و کامپیوتر و تین کلاینت ها است (۳۲ بیت و ۶۴ بیت) اما رفته رفته دستگاه های تحت پوشش را بیشتر خواهیم کرد.
 
-OpenWrt is licensed under GPL-2.0
+## تکثیر و فورک
+
+برای تکثیر این فریمور یا سیستم عامل می توانید به صفحه اصلی OpenWrt وارد شده و از دستور العمل آن استفاده نمایید:
+
+[OpenWrt](https://github.com/openwrt/openwrt)
+
+## گارانتی و پشتیبانی
+
+از این رو که این پروژه به صورت فردی و صرفا جهت آزمایش علمی هدایت می شود و تکثیر آن به صورت داوطلبانه اتفاق افتاد هیچگونه گارانتی و ضمانتی در خصوص خدمات یا نرم افزار های گرد آوری شده بر عهده دولپر نمی باشد.
+این پروژه در اصل بومی سازی شده پروژه اصلی است و هرگونه سو استفاده از این پروژه از سمت افراد غیر بر عهده گردآورنده (دولوپر) این پروژه نمی باشد. 
+
+
+## حفظ حریم شخصی
+
+این پروزه به هیج عنوان اقدام به جمع آوری اطلاعات (از هیچ نوع) نمی کند و صرفا یک روتر مناسب برای بازی های رایانه ای را برای شما فراهم می کند.
+
+
+## مسیر های پشتیبانی و ارتباطی
+
+
+  - [کانال تلگرامی](https://t.me/pedittechs)
+  - [گروه تلگرامی](https://t.me/iranopenwrt)
+  - [کانال یوتیوب](https://www.youtube.com/@pedittechs1297)
+  - [OpenWrt Routing](https://github.com/openwrt/routing): Packages specifically focused on (mesh) routing.
+  - [CONTRIBUTED.md](https://github.com/immortalwrt/immortalwrt/blob/master/CONTRIBUTED.md): the 3rd-party packages we introduced.
+  - [Quick Start Guide](https://openwrt.org/docs/guide-quick-start/start)
+  - [User Guide](https://openwrt.org/docs/guide-user/start)
+  - [Developer Documentation](https://openwrt.org/docs/guide-developer/start)
+  - [Technical Reference](https://openwrt.org/docs/techref/start)
+  - Support Chat: group [@ctcgfw_openwrt_discuss](https://t.me/ctcgfw_openwrt_discuss) on [Telegram](https://telegram.org/).
+  - Support Chat: group [#immortalwrt](https://matrix.to/#/#immortalwrt:matrix.org) on [Matrix](https://matrix.org/).
+
+## تشکر ویژه
+[immortalwrt](https://github.com/immortalwrt/immortalwrt)
+
+
+[openwrt](https://github.com/openwrt/openwrt)
+
+
+[**P3TERX**](https://p3terx.com)
+
+## لایسنس ها
+[**PeDitX**](https://peditx.ir) © 2023
+OpenWrt is licensed under [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html).
