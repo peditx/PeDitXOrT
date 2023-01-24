@@ -1,7 +1,7 @@
 ![OpenWrt logo](include/logo.png)
 
 
-## Project [**PeDitXrt**](https://github.com/peditx/PeDitXrt)
+## Project [**PeDitXOrt**](https://github.com/peditx/PeDitXrt)
 
 
 
@@ -19,7 +19,7 @@
 
 برای دانلود به آدرس زیر مراجعه کنید:
 
-https://github.com/peditx/PeDitXrt/releases
+https://github.com/peditx/PeDitXOrt/releases
 
 ## راهنمای نصب آسان
 
@@ -37,7 +37,7 @@ bash start.sh
 
 ## کوتاه از این پروژ
 
-همانطور که پروژه [immortalwrt](https://github.com/immortalwrt/immortalwrt) یک برداشت از [openwrt](https://github.com/openwrt/openwrt) برای استفاده روزانه مردم کشور چین است پروژه [**PeDitXrt**](https://github.com/peditx/PeDitXrt) نیز برداشتی از این دو پروژه برای کارهای روزانه فارسی زبانان است.
+همانطور که پروژه [immortalwrt](https://github.com/immortalwrt/immortalwrt) یک برداشت از [openwrt](https://github.com/openwrt/openwrt) برای استفاده روزانه مردم کشور چین است پروژه [**PeDitXOrt**](https://github.com/peditx/PeDitXOrt) نیز برداشتی از این دو پروژه برای کارهای روزانه فارسی زبانان است.
 
 این پروژه برای استفاده های روزانه در ایران بیشترین کاربرد را دارد . (**با توجه به سخت افزارهای موجود**)
 
@@ -52,9 +52,9 @@ bash start.sh
 
 ## تکثیر و فورک
 
-برای تکثیر این فریمور یا سیستم عامل می توانید به صفحه اصلی immortalwrt وارد شده و از دستور العمل آن استفاده نمایید:
+برای تکثیر این فریمور یا سیستم عامل می توانید به صفحه اصلی OpenWrt وارد شده و از دستور العمل آن استفاده نمایید:
 
-[immortalwrt](https://github.com/immortalwrt/immortalwrt)
+[OpenWrt](https://github.com/openwrt/openwrt)
 
 ## گارانتی و پشتیبانی
 
@@ -73,7 +73,6 @@ bash start.sh
   - [کانال تلگرامی](https://t.me/pedittechs)
   - [گروه تلگرامی](https://t.me/iranopenwrt)
   - [کانال یوتیوب](https://www.youtube.com/@pedittechs1297)
-  - [ImmortalWrt Packages](https://github.com/immortalwrt/packages): Community repository of ported packages.
   - [OpenWrt Routing](https://github.com/openwrt/routing): Packages specifically focused on (mesh) routing.
   - [CONTRIBUTED.md](https://github.com/immortalwrt/immortalwrt/blob/master/CONTRIBUTED.md): the 3rd-party packages we introduced.
   - [Quick Start Guide](https://openwrt.org/docs/guide-quick-start/start)
